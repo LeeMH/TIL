@@ -175,7 +175,7 @@ export const time = readable(null, function start(set) {
 ```
 
 
-## [Derived stores](## [Readable stores](https://learn.svelte.dev/tutorial/derived-stores)
+## [Derived stores]((https://learn.svelte.dev/tutorial/derived-stores)
 
 * 다른 store 값에서 파생된 store도 `derived` 지시를 통해 만들수 있다.
 
@@ -222,4 +222,75 @@ export const time = readable(new Date(), function start(set) {
 const start = new Date();
 
 export const elapsed = derived(time, ($time) => Math.round($time - start) / 1000);
+```
+
+## [Custom stores](https://learn.svelte.dev/tutorial/custom-stores)
+
+* 도메인 로직을 결합하여 커스텀 store를 만드는것도 간단합니다.
+
+App.svelte
+```js
+<script>
+	import { count } from './stores.js';
+</script>
+
+<h1>The count is {$count}</h1>
+
+<button on:click={count.increment}>+</button>
+<button on:click={count.decrement}>-</button>
+<button on:click={count.reset}>reset</button>
+```
+
+stores.js
+```js
+import { writable } from 'svelte/store';
+
+function createCount() {
+	const { subscribe, set, update } = writable(0);
+
+	return {
+		subscribe,
+		increment: () => update((n) => n+1),
+		decrement: () => update((n) => n-1),
+		reset: () => set(0)
+	};
+}
+
+export const count = createCount();
+```
+
+
+## [Store binding](https://learn.svelte.dev/tutorial/store-bindings)
+
+* store를 컴포넌트에 바인딩하는것도 쉽게 가능합니다.
+
+* `<input bind:value={$name}/>` 이런식으로 바인딩 할수 있습니다.
+
+* 아래는 버튼을 클릭하면 !를 store에 하니씩 붙이는 에제이다.
+
+* name store가 변경되면, 관련있는 부분은 업데이트가 이뤄진다.
+
+* `$name += '!'` 과 `name.set($name + '!')`은 같은 로직이다.
+
+App.svelte
+```js
+<script>
+	import { name, greeting } from './stores.js';
+</script>
+
+<h1>{$greeting}</h1>
+<input value={$name} />
+
+<button on:click={() => $name += '!'}>
+	Add exclamation mark!!
+</button>
+```
+
+stores.js
+```js
+import { writable, derived } from 'svelte/store';
+
+export const name = writable('world');
+
+export const greeting = derived(name, ($name) => `Hello ${$name}!`);
 ```
