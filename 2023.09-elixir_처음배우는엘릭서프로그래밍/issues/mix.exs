@@ -8,6 +8,8 @@ defmodule Issues.MixProject do
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
+      name: "issues",
+      source_url: "https://github.com/pragdave/issues",
       deps: deps()
     ]
   end
@@ -24,6 +26,8 @@ defmodule Issues.MixProject do
     [
       { :httpoison, "~> 1.0" },
       { :poison, "~> 5.0" },
+      { :ex_doc, "~> 0.25"},
+      { :earmark, "~> 1.4"},
       {:ssl_verify_fun, "~> 1.1.7", manager: :rebar3, override: true}
     ]
   end
