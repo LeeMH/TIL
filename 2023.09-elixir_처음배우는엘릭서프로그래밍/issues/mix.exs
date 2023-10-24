@@ -4,6 +4,7 @@ defmodule Issues.MixProject do
   def project do
     [
       app: :issues,
+      escript: escript_config(),
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
@@ -24,6 +25,12 @@ defmodule Issues.MixProject do
       { :httpoison, "~> 1.0" },
       { :poison, "~> 5.0" },
       {:ssl_verify_fun, "~> 1.1.7", manager: :rebar3, override: true}
+    ]
+  end
+
+  defp escript_config do
+    [
+      main_module: Issues.CLI
     ]
   end
 end

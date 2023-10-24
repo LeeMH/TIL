@@ -1,10 +1,15 @@
 defmodule Issues.TableFormatter do
-  imoprt Enum, only: [ each: 2, map: 2, map_join: 3, max: 1]
+  import Enum, only: [ each: 2, map: 2, map_join: 3, max: 1]
 
   def print_table_for_columns(rows, headers) do
     with data_by_columns = split_into_columns(rows, headers),
          column_widths = widths_of(data_by_columns),
          format = format_for(column_widths)
+    do
+      puts_one_line_in_columns(headers, format)
+      IO.puts(seperator(column_widths))
+      puts_in_columns(data_by_columns, format)
+    end
   end
 
   def split_into_columns(rows, headers) do
@@ -22,7 +27,7 @@ defmodule Issues.TableFormatter do
   end
 
   def format_for(column_widths) do
-    map_join(column_widths, " | "), fn width -> "~-#{width}s" end) <> "~n"
+    map_join(column_widths, " | ", fn width -> "~-#{width}s" end) <> "~n"
   end
 
   def seperator(column_widths) do
