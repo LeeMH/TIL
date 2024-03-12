@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c458904f37645cf7",
+  "active": "e02694c1a1709256",
   "lastOpenFiles": [
+    "attached",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/11장. 문자열과 바이너리.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/12. 제어구문.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/14. 툴링.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/02. 패턴 매칭.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/01. 빨간약을 먹어보자.md",
     "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
     "2024.03-Unit Testing",
