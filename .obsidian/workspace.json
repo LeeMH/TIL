@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c3d4c04b421778fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024.10-2시간으로_끝내는_코루틴/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024.03-Unit Testing/1장. 단위테스트의 목표.md"
+                "file": "2024.10-2시간으로_끝내는_코루틴/README.md"
               }
             }
           }
@@ -146,17 +159,41 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c458904f37645cf7",
+  "active": "c3d4c04b421778fd",
   "lastOpenFiles": [
-    "README.md",
-    "attached",
+    "2024.10-2시간으로_끝내는_코루틴/1. 루틴과 코루틴.md",
+    "2023.03-sveltekit_tutorial/Part1.Welcome to Svelte/part1.1.Introduction.md",
+    "2023.08-effective-kotlin/01.가변성을 제한하라.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/11장. 문자열과 바이너리.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/10. 컬렉션 다루기 Enum과 Stream.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/07. 리스트와 재귀.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/06. 모듈과 기명함수.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/03. 불변성.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/01. 빨간약을 먹어보자.md",
+    "attached/Pasted image 20241011185643.png",
+    "attached/Pasted image 20241011190250.png",
+    "attached/Pasted image 20241011190125.png",
+    "attached/Pasted image 20241011190041.png",
+    "attached/Pasted image 20241011185828.png",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/META-INF/demo.kotlin_module",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/ch1/MainKt$newRoutine$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/ch1/MainKt$main$1$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/ch1/MainKt$main$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/ch1/MainKt.class",
+    "attached.md",
+    "attached",
+    "Pasted image 20241011185444.png",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream",
+    "2024.10-2시간으로_끝내는_코루틴/README.md",
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/ README.md",
+    "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
+    "2024.10-coroutine.md",
+    "README.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/12. 제어구문.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/14. 툴링.md",
-    "2023.09-elixir_처음배우는엘릭서프로그래밍/02. 패턴 매칭.md",
-    "2023.09-elixir_처음배우는엘릭서프로그래밍/01. 빨간약을 먹어보자.md",
-    "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
-    "2024.03-Unit Testing",
-    "2023.09-elixir_처음배우는엘릭서프로그래밍/ README.md"
+    "2023.09-elixir_처음배우는엘릭서프로그래밍/02. 패턴 매칭.md"
   ]
 }
