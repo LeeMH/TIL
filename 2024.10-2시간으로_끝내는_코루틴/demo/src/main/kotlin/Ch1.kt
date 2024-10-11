@@ -1,8 +1,7 @@
-package ch1
-
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.yield
+import java.util.Date
 
 fun main(): Unit = runBlocking {
     printWithThread("START")
@@ -21,5 +20,5 @@ suspend fun newRoutine() {
 }
 
 fun printWithThread(str: Any) {
-    println("[${Thread.currentThread().name}] $str")
+    println("[${Thread.currentThread().name}][${Date()}] $str")
 }
