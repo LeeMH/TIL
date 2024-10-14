@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f7417de2649e80d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024.10-2시간으로_끝내는_코루틴/4. 코루틴의 취소.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/3. 코루틴 빌더와 job.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/4. 코루틴의 취소.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/3. 코루틴 빌더와 job.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/4. 코루틴의 취소.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/3. 코루틴 빌더와 job.md"
+                "file": "2024.10-2시간으로_끝내는_코루틴/4. 코루틴의 취소.md"
               }
             }
           }
@@ -159,28 +171,33 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c3d4c04b421778fd",
+  "active": "1f7417de2649e80d",
   "lastOpenFiles": [
+    "attached/Pasted image 20241014190039.png",
+    "2024.10-2시간으로_끝내는_코루틴/3. 코루틴 빌더와 job.md",
+    "2024.10-2시간으로_끝내는_코루틴/4. 코루틴의 취소.md",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/META-INF/demo.kotlin_module",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch4_2Kt$main$1$job$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch4_2Kt$main$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch4_2Kt.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch4_1Kt$main$1$job$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch4_1Kt$main$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch4_1Kt.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch3_5Kt$main$1$job$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch3_5Kt$main$1.class",
+    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch3_5Kt.class",
+    "attached/Pasted image 20241014180640.png",
+    "attached/Pasted image 20241014180149.png",
+    "attached/Pasted image 20241014180102.png",
+    "2024.10-2시간으로_끝내는_코루틴/2. 스레드와 코루틴.md",
+    "2024.10-2시간으로_끝내는_코루틴/1. 루틴과 코루틴.md",
     "attached/Pasted image 20241011194220.png",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_5Kt$main$1$job$1.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_5Kt$main$1.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_5Kt.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/src/main/kotlin/Ch2_5.kt",
     "attached/Pasted image 20241011193913.png",
     "attached/Pasted image 20241011193731.png",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_4Kt$main$1$job2$1.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_4Kt$main$1$job1$1.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_4Kt$main$1.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_4Kt.class",
-    "2024.10-2시간으로_끝내는_코루틴/demo/src/main/kotlin/Ch2_4.kt",
     "attached/Pasted image 20241011193325.png",
-    "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch2_3Kt$main$1$job$1.class",
     "attached/Pasted image 20241011192925.png",
-    "2024.10-2시간으로_끝내는_코루틴/2. 스레드와 코루틴.md",
-    "2024.10-2시간으로_끝내는_코루틴/3. 코루틴 빌더와 job.md",
     "attached/Pasted image 20241011191654.png",
     "2024.10-2시간으로_끝내는_코루틴/README.md",
-    "2024.10-2시간으로_끝내는_코루틴/1. 루틴과 코루틴.md",
     "2023.03-sveltekit_tutorial/Part1.Welcome to Svelte/part1.1.Introduction.md",
     "2023.08-effective-kotlin/01.가변성을 제한하라.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/11장. 문자열과 바이너리.md",
@@ -190,10 +207,6 @@
     "2023.09-elixir_처음배우는엘릭서프로그래밍/03. 불변성.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/01. 빨간약을 먹어보자.md",
     "attached/Pasted image 20241011185643.png",
-    "attached/Pasted image 20241011190250.png",
-    "attached/Pasted image 20241011190125.png",
-    "attached/Pasted image 20241011190041.png",
-    "attached/Pasted image 20241011185828.png",
     "attached.md",
     "2023.09-elixir_처음배우는엘릭서프로그래밍/ README.md",
     "2024.03-Unit Testing/1장. 단위테스트의 목표.md",
