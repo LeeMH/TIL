@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/6.Structured Concurrency.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/7.CoroutineScope과 CoroutineContext.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/6.Structured Concurrency.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/7.CoroutineScope과 CoroutineContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/6.Structured Concurrency.md",
+                "file": "2024.10-2시간으로_끝내는_코루틴/7.CoroutineScope과 CoroutineContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024.10-2시간으로_끝내는_코루틴/6.Structured Concurrency.md"
+                "file": "2024.10-2시간으로_끝내는_코루틴/7.CoroutineScope과 CoroutineContext.md"
               }
             }
           }
@@ -185,6 +185,13 @@
   },
   "active": "9b1a2beccfc71ea5",
   "lastOpenFiles": [
+    "attached/Pasted image 20241018110047.png",
+    "attached/Pasted image 20241018105704.png",
+    "attached/Pasted image 20241018105250.png",
+    "attached/Pasted image 20241018105114.png",
+    "attached/Pasted image 20241018105053.png",
+    "2024.10-2시간으로_끝내는_코루틴/6.Structured Concurrency.md",
+    "2024.10-2시간으로_끝내는_코루틴/7.CoroutineScope과 CoroutineContext.md",
     "attached/Pasted image 20241017191305.png",
     "attached/Pasted image 20241017191248.png",
     "attached/Pasted image 20241017191237.png",
@@ -201,13 +208,7 @@
     "2024.10-2시간으로_끝내는_코루틴/demo/build/classes/kotlin/main/Ch6_1Kt.class",
     "2024.10-2시간으로_끝내는_코루틴/demo/src/main/kotlin/Ch6_1.kt",
     "attached/Pasted image 20241017190434.png",
-    "attached/Pasted image 20241017190408.png",
     "2024.10-2시간으로_끝내는_코루틴/5.코루틴 예외 처리와 Job의 상태 변화.md",
-    "2024.10-2시간으로_끝내는_코루틴/6.Structured Concurrency.md",
-    "attached/Pasted image 20241017182314.png",
-    "attached/Pasted image 20241017181834.png",
-    "attached/Pasted image 20241017180833.png",
-    "attached/Pasted image 20241017180620.png",
     "2024.10-2시간으로_끝내는_코루틴/4. 코루틴의 취소.md",
     "2024.10-2시간으로_끝내는_코루틴/3. 코루틴 빌더와 job.md",
     "2024.10-2시간으로_끝내는_코루틴/2. 스레드와 코루틴.md",
